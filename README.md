@@ -1,4 +1,4 @@
-# OpenRPG_Inventory
+# OpenRPG: Inventory System
 #### Hi! In this repository you will find a simple but powerful way to manage a simple and expandable inventory. Everything is commented and structured to be easy to learn.
 
 ## Inventory System
