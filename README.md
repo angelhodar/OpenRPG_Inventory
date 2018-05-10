@@ -13,7 +13,7 @@
  2. Fill the info with your custom one.
  3. If that item is going to execute some logic when used, go to the MasterClasses folder an create a child blueprint class from the master class of your new item type.
  4. Set that class in the data of the item.
- 5. Also if your item is a loot item, go to DT_Loot and create a new row and fill it will the items that has to be added to the inventory when it is openned.
+ 5. Also if your item is a loot item, go to DT_Loot, create a new row with a new ID and fill it will the items that has to be added to the inventory when it is openned. Then add that ID to the LootID data of the item.
  6. Enjoy!
  
   Icons from:
