@@ -1,26 +1,53 @@
-# OpenRPG: Inventory System
-#### In this repository you will find a way to manage items containers such as player inventory, seller, storage, loot, etc. The system has been designed to be efficient, scalable and flexible to expand it with your own functionality. Everything is commented and structured to be easy to understand.
+# OpenRPG_Inventory
 
-## Features:
-  - 30+ functions API (Add Item(s), Remove Item(s), Swap, Split, Stack, Transfer, Drop, Sell, Buy, etc).
-  - Supports different types of items (consumable, equipment, material, quest, miscellaneous and loot) and item rarity (common, epic, legendary, etc). You can edit and add your custom ones!
-  - Multiple item features (name, description, icon, world mesh, type, rarity, value, stackable, level required, etc).
-  - Create your own items containers (storage actors, chests, sellers, death monsters with loot, etc) and add/modify your custom functionality.
-  - Items handled by DataTable (10+ example items).
-  - Create your custom functionality per item.
-  - Drag & Drop functionality (between different containers or in the same container).
-  - Save/Load functionality to a .sav file for every container that you want.
-  - Clean UI examples.
-  - Extremely easy to implement into your project.
+## Features
+
+-   Component based, add items container functionality to **any actor**
+    you want!
+-   Comes with **3** types of containers implemented: *player
+    inventory*, *storage* and *shop*.
+-   **Extremely flexible** to add/modify custom functionality per
+    container type using **component inheritance**.
+-   Easy to use component **API**: Add Item(s), Remove Item(s), Swap,
+    Split, Stack, Transfer, Drop...
+-   **Data driven** items from DataTable (**10+** example items).
+-   Supports different **types** of items (consumable, equipment,
+    material, quest, miscellaneous and loot).
+-   **Rich features** set per item with **15+ properties** (name,
+    description, type, rarity, usable, stackable, shop value, droppable,
+    etc).
+-   Create your **own** containers (chests, sellers, lootable monsters,
+    etc).
+-   Easy to set **custom functionality per item**.
+-   Supports items **Drag&Drop** functionality (between different
+    containers or in the same container).
+-   **Built-in** save and load system (disk file and game session
+    persistence).
+-   Clean UI examples.
+-   Extremely easy to **integrate** into your project.
 
 ## Bonus: Equipment System
-  - Supports multiple slot types (armor, helmet, boots, shield, weapon, etc). You can add your own ones or modify the current ones easily.
-  - Equip/Unequip from player inventory by simple click or using Drag&Drop.
-  - Swap items between equipment slots and player inventory slots.
-  - Drop from equipment slot directly to the world.
-  - Save/Load to a .sav file.
-  - Easy to add your custom slots
-  
-Icons from:
+
+-   Integrated with inventory system keeping **dependencies** to the
+    **minimum**.
+-   Easy to **integrate** into your character (just **1** actor
+    component).
+-   **Data driven** equipment data from DataTable (**5+** examples).
+-   Supports multiple **slot types** (armor, helmet, boots, shield,
+    weapon, etc).
+-   Equip and unequip from **any items container** (not only player
+    inventory, for example **directly** from storage).
+-   Supports simple click and **Drag&Drop** functionality.
+-   Supports **item swapping** from items containers (no need to unequip
+    and then equip).
+-   **Drop** from equipment slot **directly to the world**.
+-   **Built-in** save and load functionality.
+
+## Documentation
+
+You can find full documentation and tutorials about the system [here](https://openrpg-inventory.readthedocs.io/). Im already writing it im my free time so there will be a lot of things missing.
+
+## Icons
   - http://www.ludicarts.com/free-rpg-icons/
   - http://www.ludicarts.com/free-rpg-icons-2/
+

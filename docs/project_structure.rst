@@ -53,8 +53,8 @@ as well as a small items database using this data structure in the ``DataTables`
 
 Finally, the widgets folder contains the most important widgets of the system: the item slot and the slots container grid.
 Both handles most of the UI functionality with the components, as they can be reused creating some instances and assigning
-the type of container they are going to hold to each one. You will also find other less important widgets like the dragged
-slot widget or the world interaction text showed to the player.
+the type of container they are going to hold to each one. Here you will also find the tooltip widget, showed when the mouse
+is over an item slot to show information about the item it contains.
 
 OpenRPG_Equipment
 -----------------
