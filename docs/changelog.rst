@@ -32,3 +32,4 @@ TODO
 - Add widget to show keyboard controls and shotcuts when using the system.
 - Improve the example scene.
 - Add some real functionality to an item instead of just explaining how to do it.
+- Add functions to dynamically increase the amounts of slots in container.
