@@ -1,5 +1,7 @@
 # OpenRPG_Inventory
 
+[![Support Server](https://img.shields.io/discord/591914197219016707.svg?label=OpenRPG&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/DB6a4CUY)
+
 ## Features
 
 -   Component based, add items container functionality to **any actor**
