@@ -1,5 +1,6 @@
 # OpenRPG_Inventory
 
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Discord Server](https://discord.com/api/guilds/814412583988756581/embed.png)](https://discord.gg/DB6a4CUY)
 
 ## Features
